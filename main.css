@@ -1,0 +1,256 @@
+* {
+  /*this is the global style of the whole page. No automatic maring and padding.Star is the wildcard meaning everything*/
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: rgb(245, 238, 224);
+}
+
+.container {
+  /*this container is the grid which we place elements on*/
+  /*define div in .container from html which will be used for the block of container*/
+  /*container is the name given to div tag where we want to have separate style*/
+  display: block; /*to display image in the block*/
+  position: relative; /*position relative to normal position*/
+  margin: 0 auto; /*define margin of the grid (0 margin meaning, no margin). auto means is in the middle of the page*/
+  width: 1020px; /* this is the width/height of the grid*/
+  height: 1020px;
+  /*alternative background: rgb(230, 219, 238);*/
+  /*background: url(images/grid.gif); this is the background image which is the grid. 
+  After we finish putting elements of the page, then the grid will be removed */
+  font-family: "Helvitica Neue", Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+/*Page 1*/
+#big_virus {
+  background: url(images/big_virus.gif); /*put the image file here*/
+  top: 40px;
+  left: -240px;
+  height: 453px;
+  width: 451px;
+}
+
+#small_virus1 {
+  background: url(images/small_virus.png);
+  top: -250px;
+  left: 120px;
+  height: 60px;
+  width: 60px;
+}
+#small_virus2 {
+  background: url(images/small_virus.png);
+  top: -235px;
+  left: 280px;
+  height: 60px;
+  width: 60px;
+}
+
+#tiny_virus1 {
+  background: url(images/tiny_virus.png);
+  top: -520px;
+  left: 280px;
+  height: 32px;
+  width: 32px;
+}
+#tiny_virus2 {
+  background: url(images/tiny_virus.png);
+  top: -470px;
+  left: 200px;
+  height: 32px;
+  width: 32px;
+}
+#tiny_virus3 {
+  background: url(images/tiny_virus.png);
+  top: -500px;
+  left: 360px;
+  height: 32px;
+  width: 32px;
+}
+#tiny_virus4 {
+  background: url(images/tiny_virus.png);
+  top: -455px;
+  left: 440px;
+  height: 32px;
+  width: 32px;
+}
+
+#depression {
+  display: block;
+  position: relative;
+  top: -110px; /* no left side needed because the width of the container is 1020px and we want the text in the centre*/
+  text-align: center; /* to put the text in the centre of the container box*/
+}
+
+#feeling {
+  background: url(images/feeling.png);
+  top: -13px;
+  left: 0px;
+  height: 60px;
+  width: 220px;
+}
+
+#feeling_great {
+  background: url(images/feeling_great1.png);
+  top: 87px;
+  left: -280px;
+  height: 60px;
+  width: 220px;
+}
+
+#feeling_great:hover {
+  /*this is the section for button or image rollover, changing from one picture to another picture*/
+  background: url(images/feeling_great2.png); /*this is the new image that change from white button to coloured button*/
+}
+
+#feeling_sad {
+  background: url(images/feeling_sad1.png);
+  top: 27px;
+  left: 280px;
+  height: 60px;
+  width: 220px;
+}
+
+#feeling_sad:hover {
+  background: url(images/feeling_sad2.png);
+}
+
+#face_happy {
+  background: url(images/face_happy.gif);
+  top: -172px;
+  left: -280px;
+  height: 140px;
+  width: 90px;
+}
+#face_sad {
+  background: url(images/face_sad.gif);
+  top: -312px;
+  left: 280px;
+  height: 140px;
+  width: 90px;
+}
+
+/*Page 2*/
+#I_am {
+  display: block;
+  position: relative;
+  top: 50px;
+  text-align: center; /* to put the text in the centre of the container box*/
+}
+
+#love {
+  background: url(images/love_kindness.gif);
+  top: 85px;
+  left: 0px;
+  height: 442px;
+  width: 300px;
+}
+
+#however {
+  display: block;
+  position: relative;
+  top: 115px;
+  left: 65px;
+}
+
+#mental_health {
+  display: block;
+  position: relative;
+  top: 120px;
+  left: 145px;
+}
+
+#and_ask {
+  display: block;
+  position: relative;
+  top: 125px;
+  left: 340px;
+}
+
+#r_u_ok {
+  background: url(images/r_u_ok1.png);
+  top: 175px;
+  left: 0px;
+  height: 60px;
+  width: 300px;
+}
+
+#r_u_ok:hover {
+  background: url(images/r_u_ok2.png);
+}
+
+#home {
+  background: url(images/home1.png);
+  top: 274px;
+  left: 0px;
+  height: 60px;
+  width: 220px;
+}
+
+#home:hover {
+  background: url(images/home2.png);
+}
+
+#sorry {
+  display: block;
+  position: relative;
+  top: 70px;
+  text-align: center; /* to put the text in the centre of the container box*/
+}
+
+#heart {
+  background: url(images/heart.gif);
+  top: 115px;
+  left: 0px;
+  height: 460px;
+  width: 460px;
+}
+#remember {
+  display: block;
+
+  position: relative;
+  top: 135px;
+  left: 240px;
+}
+#strength {
+  display: block;
+  position: relative;
+  top: 140px;
+  left: 247px;
+}
+#beyond_blue {
+  background: url(images/beyond1.png);
+  top: 193px;
+  left: -240px;
+  height: 60px;
+  width: 300px;
+}
+#beyond_blue:hover {
+  background: url(images/beyond2.png);
+}
+
+#head_to_help {
+  background: url(images/head1.png);
+  top: 133px;
+  left: 240px;
+  height: 60px;
+  width: 300px;
+}
+
+#head_to_help:hover {
+  background: url(images/head2.png);
+}
+
+#home_3 {
+  background: url(images/home1.png);
+  top: 233px;
+  left: 0px;
+  height: 60px;
+  width: 220px;
+}
+
+#home_3:hover {
+  background: url(images/home2.png);
+}

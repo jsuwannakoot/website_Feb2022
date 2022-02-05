@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Depression during COVID-19 pandemic</title>
+    <link rel="stylesheet" href="main.css">  <!--this is the link to css file. Rel = relationship --> 
+</head>
+
+<body onload = "pop_up()">   <!--popup window is shown after the page is loaded-->
+    <script src = "javascript.js"></script>  <!--this is a link to external javascript file-->
+    <div class="container">  <!--div is like a box so we can put something inside. Here, container is the grid where we place elements inside-->
+        <div id="big_virus" class = "container"></div>
+        <div id="small_virus1" class = "container"></div>
+        <div id="small_virus2" class = "container"></div>
+        <div id="tiny_virus1" class = "container"></div>
+        <div id="tiny_virus2" class = "container"></div>
+        <div id="tiny_virus3" class = "container"></div>
+        <div id="tiny_virus4" class = "container"></div>
+        <div id="depression">Depression may affect <span id = "first_name"></span> during<br>COVID Pandemic</div>  <!--span is a container to add a element as part of a text. It takes id = first_name and put it here. br is for the new line-->
+        <div id="feeling" class= "container"></div>
+        <audio id="happy_sound" source src="sound/happy.mp3"></audio>  <!--please activate the auto-play function in the browser or -->
+        <audio id="sad_sound" source src="sound/sad.mp3"></audio>      <!--please click somewhere on the viewpoint before hovering the mouse over the buttons to active the sound-->  
+        <a href="page2.html" onmouseover="document.getElementById('happy_sound').play()" id="feeling_great" class="container"></a> <!--picture link to happy page. Make sure to write the link, not copy/paste. a href = "#" is for image rollover (change from div to "a href" which links to feeling_great : hover in CSS-->
+        <a href="page3.html" onmouseover="document.getElementById('sad_sound').play()" id="feeling_sad" class="container"></a>  <!--picture link to sad page. When writing a tag, use it to wrap the whole tag-->       
+        <div id="face_happy" class="container"></div>
+        <div id="face_sad" class="container"></div>
+    </div> 
+      
+</html>
